@@ -6,6 +6,7 @@ Description of script: MAC address spoofer script which will change the mac addr
                        You have to input the interface name and then provide the mac address you want to change to.
 Syntax ( execute this in terminal ) : python macSpoofer.py -i (interface name; e.g: wlan0) -m (mac address; e.g: 00:11:22:33:44:55)
 Note: This program will only work in Linux.
+Version: 1.2
 
 """
 #!/usr/bin/env python

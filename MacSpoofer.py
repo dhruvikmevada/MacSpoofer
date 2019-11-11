@@ -31,5 +31,5 @@ subprocess.call(["ifconfig", interface, "hw", "ether", newMac])
 subprocess.call(["ifconfig", interface, "up"])
 print("\n[+] Done!")
 print("\n###################################################################")
-print("\n New MAC address : " + subprocess.call(["ifocnfig"], interface))
+print("\n New MAC address : " + subprocess.call(["ifconfig"], interface))
 
